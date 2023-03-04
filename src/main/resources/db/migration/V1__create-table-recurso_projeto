@@ -1,0 +1,9 @@
+CREATE TABLE recurso_projeto (
+tipo_recurso varchar(255) not null,
+id integer not null,
+custo_hora decimal(19,2),
+responsabilidade varchar(255),
+email varchar(255),
+
+primary key (id)
+);
