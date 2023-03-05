@@ -10,7 +10,7 @@ public class RecursoProjetoFactory {
         switch (ObjectType){
             case "material":
                 System.out.println("Returning new Material");
-                return new Material();
+                return new Material("tijolo");
 
             case "colaborador":
                 System.out.println("Returning new Colaborador");

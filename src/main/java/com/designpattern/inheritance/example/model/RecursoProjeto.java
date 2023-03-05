@@ -19,9 +19,9 @@ import java.math.BigDecimal;
 @DiscriminatorColumn(name = "tipo_recurso")
 public abstract class RecursoProjeto {
 
-    @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @EqualsAndHashCode.Include
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "custo_hora")
